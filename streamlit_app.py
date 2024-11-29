@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.navigation([disabled])
 
 hello = open("hello.md", "r")
 hello = hello.read()
