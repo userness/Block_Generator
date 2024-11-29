@@ -12,6 +12,6 @@ col1, col2 = st.columns(2)
 
 # Add buttons in separate columns to place them side by side
 with col1:
-    st.link_button("Go to downloads", "pages/Downloads.py")
+    st.page_link("pages/Downloads.py", label="To Downloads", icon="⬇️")
 with col2:
-    st.link_button("Go to the generator", "pages/Generator.py")
+    st.page_link("pages/Generator.py", label="To The Generator", icon="⚙️")
